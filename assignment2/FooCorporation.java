@@ -4,7 +4,7 @@ public class FooCorporation {
         if (pay < 8.0 || hour > 60) {
             System.out.println("error");
         } else {
-            double salary = 0.0;
+            double salary;
             int overTime = 0;
             if (hour > 40) {
                 overTime = hour - 40;
